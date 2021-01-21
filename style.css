@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+      @import url('https://fonts.googleapis.com/css?family=Libre Baskerville');
+
+.navbar-custom {
+    background-color:#FEF9E7;
+    font-family: "Montserrat";
+
+}
+
+.lead {
+    
+    font-size: 17px;
+}
+
+
+p {
+    font-family: "Montserrat";
+    text-align: justify;
+}
+
+.lead {
+    
+text-align: justify;
+}
+
+h1 {
+    font-family: "Libre Baskerville";
+    color: #0B5345;
+}
+
+h2 {
+    font-family: "Libre Baskerville";
+    color: #0B5345;
+}
+
+h3 {
+    font-family: "Libre Baskerville";
+    color: #0B5345;
+}
+
+h4 {
+    font-family: "Montserrat";
+    color: #0B5345;
+}
+
+.footer-title {
+    font-family: "Montserrat";
+    color: white;
+}
+
+.btn {
+    color: white;
+    background-color: #F8A827;
+    
+}
+
+/* PIC Colour box text */
+.colorblock {
+    background: #FDEBD0;
+    padding-top: 28px;
+    border-color: #FDEBD0;
+}
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-bottom: 15px;
+    height: 55%;
+    padding-top: 10px;
+}
+
+.light-h2 {
+    color: #0B5345;
+}
+
+.light-p {
+    color: #0B5345;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+
+/* VIDEO Colour box text */
+.colorblock1 {
+    background: #FDEBD0;
+    padding-top: 28px;
+    padding-bottom: 20px;
+}
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 15px;
+    height: 55%;
+    padding-top: 10px;
+}
+
+.light-h2 {
+    color: #0B5345;
+}
+
+.light-p{
+    color: #0B5345;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+/* Newsletter Section */
+.newsletter {
+    background: white;
+    padding: 10px 0px;
+    text-align: center;
+    color: black;
+    
+}
+
+
+.newsletter-p {
+    font-size: 14px;
+    font-style: italic;
+    padding: 0px;
+    margin: 20px 0px 15px;
+}
+
+.newsletter-form {
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-family: "Montserrat";
+    font-size: 14px;
+    border-color: white;
+}
+.newsletter-form-input[type="email"] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+    border-color: white;
+}
+.newsletter-form-input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 14px;
+    padding: 0 20px;
+    background: #F8A827;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+#newsletter form input[type="submit"]:hover {
+    opacity: 0.9;
+}
+
+/* video */
+
+
+
+
+/*FOOTER*/
+
+footer {
+  background: #0B5345;
+  
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+
+/* CAFE MENU COLUMNS */
+
+.col-food {
+    text-align: right;
+}
+
+/* feedback carousel */
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+
+/* colorblock-about */
+
+.colorblock-about {
+    background: #FDEBD0;
+    border-color: #FDEBD0;
+}
+
+.light-h3 {
+    color: #0B5345;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.about-margin {
+    margin-left: 5%;
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.about-img-right {
+    margin-right: 5%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.about-img-left {
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-color: white;
+}
+
+.about-margin-right {
+    margin-right: 5%;
+    margin-top: 2%;
+    text-align: justify;
+    margin-right: 50%;
+    
+}
+
+.about-margin-left {
+    margin-left: 5%;
+    margin-top: 2%;
+    text-align: justify;
+    margin-right: 5%;
+    border-color: white;
+    
+}
+
+
+.carousel .item img {
+  height: 50px;
+}
+
+.item img {
+    min-height: 50px;
+}
+
+    .contact-text {
+        font-size: 14px;
+        color: white;
+        
+    }
+
+#contact{
+    background-image: url(field.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+
+hr{
+    border-color: transparent;
+}
+  
+#contact-form form {
+    align-content: center;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+    font-family: "Montserrat";
+    font-size: 14px;
+}
+
+#home{
+    background-image:url(lavender-1.jpg);
+    
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.light-p1 {
+    color: #0B5345;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 17px;
+}
+
+/* mouse over link */
+
+a:hover {
+  color: #0B5345;
+}
+
+
+
+.fa {
+    padding: 11px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #FDEBD0;
+  color: #0B5345;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #FDEBD0;
+  color: #0B5345;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #FDEBD0;
+  color: #0B5345;
+}
+
+/* Youtube */
+.fa-youtube {
+  background: #FDEBD0;
+  color: #0B5345;
+}
+
+.colorblock-cafe {
+    background: #FDEBD0;
+    border-color: #FDEBD0;
+}
+
+.cafe-margin {
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.img-about {
+    margin-left: 40%;
+    margin-bottom: 2%;
+}
+
+.light-h4 {
+    color: #0B5345;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.colorblock-about-white {
+    background: white;
+    border-color: white;
+}
+
+.img-logo {
+    height: 120px;
+    width: 120px;
+}
