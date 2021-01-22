@@ -427,6 +427,7 @@ html,body{
   padding-left: 30px;
 }
 
-about-img-right {
-    
+.embed-responsive-item {
+    width: 350xp;
+    height: 200xp;
 }
