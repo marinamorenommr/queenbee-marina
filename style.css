@@ -367,10 +367,10 @@ a:hover {
 }
 
 .sizer {
- padding: 80px;
+text-align: center;
  position: static;
- padding-top: 60px;
  padding-bottom: 30px;
+padding-left: 500px;
 }
 
 
