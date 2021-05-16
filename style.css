@@ -4,7 +4,10 @@
 .navbar-custom {
     background-color:#FEF9E7;
     font-family: "Montserrat";
+  
+}
 
+margin-top: 150px; /* Add a top margin to avoid content overlay */
 }
 
 .lead {
